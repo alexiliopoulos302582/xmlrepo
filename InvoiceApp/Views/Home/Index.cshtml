@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+
+    <!-- <a href="/invoice">invoice</a>
+    <br></br>
+
+    <a href="/customer">customer</a>
+    <br></br>
+    <br></br> -->
+
+
+
+    <button onclick="location.href='@Url.Action("ImportInvoices", "Home")'">Import XML Data</button>
+
+    <br></br>
+    <a href="/chaniainvoices">invoices</a>
+    <br></br>
+    <a href="/chaniacustomers">customers</a>
+    <br></br>
+    <a href="/chaniatransactions">transactions</a>
+    <br></br>
+
+</div>

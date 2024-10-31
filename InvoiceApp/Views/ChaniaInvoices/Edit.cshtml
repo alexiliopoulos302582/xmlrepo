@@ -1,0 +1,59 @@
+﻿@model InvoiceApp.Models.ChaniaInvoice
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>ChaniaInvoice</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="ChaniaDocID" />
+            <div class="form-group">
+                <label asp-for="ChaniaDocDate" class="control-label"></label>
+                <input asp-for="ChaniaDocDate" class="form-control" />
+                <span asp-validation-for="ChaniaDocDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ChaniaDocType" class="control-label"></label>
+                <input asp-for="ChaniaDocType" class="form-control" />
+                <span asp-validation-for="ChaniaDocType" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ChaniaDocNumber" class="control-label"></label>
+                <input asp-for="ChaniaDocNumber" class="form-control" />
+                <span asp-validation-for="ChaniaDocNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="ChaniaIsReversal" /> @Html.DisplayNameFor(model => model.ChaniaIsReversal)
+                </label>
+            </div>
+            <div class="form-group">
+                <label asp-for="ChaniaDocAmount" class="control-label"></label>
+                <input asp-for="ChaniaDocAmount" class="form-control" />
+                <span asp-validation-for="ChaniaDocAmount" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ChaniaDocCurrency" class="control-label"></label>
+                <input asp-for="ChaniaDocCurrency" class="form-control" />
+                <span asp-validation-for="ChaniaDocCurrency" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

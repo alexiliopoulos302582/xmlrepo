@@ -1,0 +1,65 @@
+﻿@model IEnumerable<InvoiceApp.Models.ChaniaInvoice>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ChaniaDocDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ChaniaDocType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ChaniaDocNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ChaniaIsReversal)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ChaniaDocAmount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ChaniaDocCurrency)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ChaniaDocDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ChaniaDocType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ChaniaDocNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ChaniaIsReversal)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ChaniaDocAmount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ChaniaDocCurrency)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ChaniaDocID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.ChaniaDocID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.ChaniaDocID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

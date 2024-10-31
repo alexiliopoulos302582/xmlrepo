@@ -1,0 +1,27 @@
+﻿@model InvoiceApp.Models.Invoice
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice</title>
+</head>
+<body>
+    <h1>Invoice</h1>
+
+    <h2>Customer Details</h2>
+    <p>Customer ID: @Model.Customer.CustomerId</p>
+    <p>IRS Number: @Model.Customer.IrsNumber</p>
+    <p>Name: @Model.Customer.Name</p>
+    <p>Address: @Model.Customer.Address</p>
+    <p>Zip Code: @Model.Customer.ZipCode</p>
+    <p>Phone: @Model.Customer.Phone</p>
+
+    <h2>Product Details</h2>
+    <p>Product Name: @Model.Product.Name</p>
+    <p>Quantity: @Model.Product.Quantity</p>
+    <p>Price: @Model.Product.Price €</p>
+    <p>Total Price: @(Model.Product.Price * Model.Product.Quantity) €</p>
+</body>
+</html>

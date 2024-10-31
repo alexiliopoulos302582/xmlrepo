@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyData>
+	<Doc>
+
+		<!-- A part -->
+		
+		<DocID>12aa3a2aee504eaabf3ad7c1f567a0c3</DocID>						 
+		<DocDate>2024-07-19</DocDate>										 
+		<DocType>ΠΡ</DocType> 												 
+		<DocNumber>1</DocNumber>											 
+		<IsReversal>0</IsReversal>											 
+		<DocAmount></DocAmount>											 
+		<DocCurrency>EUR</DocCurrency>
+		 
+			<CustomerID>999991</CustomerID>										 
+		<FullName>ΠΑΠΑΔΟΠΟΥΛΟΣ ΚΥΡΙΑΚΟΣ</FullName>						 
+		<TaxID>000000012</TaxID>										 
+		<CountryCode>GR</CountryCode>										 
+		<PostCode>73132</PostCode>										 
+		<CityName>ΧΑΝΙΑ</CityName>											 
+		<Address>ΕΛ. ΒΕΝΙΖΕΛΟΥ 00 73132 ΧΑΝΙΑ</Address>					 
+		<Email>a@abc.gr</Email>		
+		
+		<TranCount>2</TranCount>										 
+		<Trans>																 
+			<Tran>					
+				<Amount>4,19</Amount>											 
+				<Currency>EUR</Currency>										 
+				<Description>ΠΡΟΜΗΘΕΙΑ POS SETTLEMENT</Description>				 
+				<GLAccount>74988200</GLAccount>
+				<TranType>2</TranType>
+			</Tran>
+			<Tran>
+				<Amount>2,22</Amount>
+				<Currency>EUR</Currency>
+				<Description>ΠΡΟΜΗΘΕΙΑ POS SETTLEMENT</Description>
+				<GLAccount>74988200</GLAccount>
+				<TranType>2</TranType>
+			</Tran>
+		</Trans>
+	</Doc>
+	
+	
+	
+	<Doc>
+		<DocID>9d6098300fcc4949bb6fd7c1f567a0c3</DocID>
+		<DocDate>2024-07-19</DocDate>
+		<DocType>ΤΚ</DocType>
+		<DocNumber>3</DocNumber>
+		<IsReversal>0</IsReversal>
+		<DocAmount></DocAmount>
+		<DocCurrency>EUR</DocCurrency>
+		<CustomerID>999992</CustomerID>
+		<FullName>ΠΑΠΑΔΟΠΟΥΛΟΣ ΝΙΚΟΣ</FullName>
+		<TaxID>000000024</TaxID>
+		<CountryCode>GR</CountryCode>
+		<PostCode>73132</PostCode>
+		<CityName>ΧΑΝΙΑ</CityName>
+		<Address>ΕΛ. ΒΕΝΙΖΕΛΟΥ 01 73132 ΧΑΝΙΑ</Address>
+		<Email>b@abc.gr</Email>
+		<TranCount>1</TranCount>
+		<Trans>
+			<Tran>
+				<Amount>0,58</Amount>
+				<Currency>EUR</Currency>
+				<Description>ΤΟΚΟΣ ΔΑΝΕΙΟΥ</Description>
+				<GLAccount>70459811</GLAccount>
+				<TranType>1</TranType>
+			</Tran>
+		</Trans>
+	</Doc>
+	
+	
+	
+	<Doc>
+		<DocID>df7c469de3d04d10bbd7d7c1f567a0c3</DocID>
+		<DocDate>2024-07-19</DocDate>
+		<DocType>ΑΠ</DocType>
+		<DocNumber>1</DocNumber>
+		<IsReversal>1</IsReversal>
+		<DocAmount></DocAmount>
+		<DocCurrency>EUR</DocCurrency>
+		<CustomerID>999992</CustomerID>
+		<FullName>ΠΑΠΑΔΟΠΟΥΛΟΣ ΝΙΚΟΣ</FullName>
+		<TaxID>000000024</TaxID>
+		<CountryCode>GR</CountryCode>
+		<PostCode>73132</PostCode>
+		<CityName>ΧΑΝΙΑ</CityName>
+		<Address>ΕΛ. ΒΕΝΙΖΕΛΟΥ 285 73132 ΧΑΝΙΑ</Address>
+		<Email>b@abc.gr</Email>
+		<TranCount>1</TranCount>
+		<Trans>
+			<Tran>
+				<Amount>74,40</Amount>
+				<Currency>EUR</Currency>
+				<Description>ΑΚΥΡΩΣΗ ΠΡΟΜΗΘΕΙΑΣ ΤΡΑΠΕΖΙΚΗΣ ΕΡΓΑΣΙΑΣ</Description>
+				<GLAccount>74461003</GLAccount>
+				<TranType>2</TranType>
+			</Tran>
+		</Trans>
+
+
+
+		<!-- b part -->
+
+		<DocID>12333a2334504eaabf3ad7c1f567a0c3</DocID>
+		<DocDate>2024-01-10</DocDate>
+		<DocType>ΠΡ</DocType>
+		<DocNumber>1</DocNumber>
+		<IsReversal>0</IsReversal>
+		<DocAmount>6,41</DocAmount>
+		<DocCurrency>EUR</DocCurrency>
+		<CustomerID>999934</CustomerID>
+		<FullName>ΠΑΠΑΔΟΠΟΥΛΟΣ ΚΥΡΙΑΚΟΣ</FullName>
+		<TaxID>000123412</TaxID>
+		<CountryCode>GR</CountryCode>
+		<PostCode>73132</PostCode>
+		<CityName>ΧΑΝΙΑ</CityName>
+		<Address>ΕΛ. ΒΕΝΙΖΕΛΟΥ 00 73132 ΧΑΝΙΑ</Address>
+		<Email>a@abc.gr</Email>
+		<TranCount>2</TranCount>
+		<Trans>
+			<Tran>
+				<Amount>10,19</Amount>
+				<Currency>EUR</Currency>
+				<Description>ΠΡΟΜΗΘΕΙΑ POS SETTLEMENT</Description>
+				<GLAccount>74988200</GLAccount>
+				<TranType>2</TranType>
+			</Tran>
+			<Tran>
+				<Amount>22,22</Amount>
+				<Currency>EUR</Currency>
+				<Description>ΠΡΟΜΗΘΕΙΑ POS SETTLEMENT</Description>
+				<GLAccount>74988200</GLAccount>
+				<TranType>2</TranType>
+			</Tran>
+		</Trans>
+	</Doc>
+
+ 
+
+	<Doc>
+		<DocID>111198300fcc4949bb6fd7c1f567a0c3</DocID>
+		<DocDate>2024-01-19</DocDate>
+		<DocType>ΤΚ</DocType>
+		<DocNumber>3</DocNumber>
+		<IsReversal>0</IsReversal>
+		<DocAmount>0,58</DocAmount>
+		<DocCurrency>EUR</DocCurrency>
+		<CustomerID>199992</CustomerID>
+		<FullName>ΠΑΠΑΔΟΠΟΥΛΟΣ ΝΙΚΟΣ</FullName>
+		<TaxID>000000024</TaxID>
+		<CountryCode>GR</CountryCode>
+		<PostCode>73132</PostCode>
+		<CityName>ΧΑΝΙΑ</CityName>
+		<Address>ΕΛ. ΒΕΝΙΖΕΛΟΥ 01 73132 ΧΑΝΙΑ</Address>
+		<Email>b@abc.gr</Email>
+		<TranCount>1</TranCount>
+		<Trans>
+			<Tran>
+				<Amount>0,58</Amount>
+				<Currency>EUR</Currency>
+				<Description>ΤΟΚΟΣ ΔΑΝΕΙΟΥ</Description>
+				<GLAccount>70459811</GLAccount>
+				<TranType>1</TranType>
+			</Tran>
+		</Trans>
+	</Doc>
+
+
+
+	<Doc>
+		<DocID>df7c469de3444d10bbd7d7c1f567a0c3</DocID>
+		<DocDate>2024-07-19</DocDate>
+		<DocType>ΑΠ</DocType>
+		<DocNumber>1</DocNumber>
+		<IsReversal>1</IsReversal>
+		<DocAmount>74,40</DocAmount>
+		<DocCurrency>EUR</DocCurrency>
+		<CustomerID>334455</CustomerID>
+		<FullName>ΠΑΠΑΔΟΠΟΥΛΟΣ ΝΙΚΟΣ</FullName>
+		<TaxID>000077024</TaxID>
+		<CountryCode>GR</CountryCode>
+		<PostCode>73132</PostCode>
+		<CityName>ΧΑΝΙΑ</CityName>
+		<Address>ΕΛ. ΒΕΝΙΖΕΛΟΥ 285 73132 ΧΑΝΙΑ</Address>
+		<Email>b@abc.gr</Email>
+		<TranCount>1</TranCount>
+		<Trans>
+			<Tran>
+				<Amount>160,40</Amount>
+				<Currency>EUR</Currency>
+				<Description>ΑΚΥΡΩΣΗ ΠΡΟΜΗΘΕΙΑΣ ΤΡΑΠΕΖΙΚΗΣ ΕΡΓΑΣΙΑΣ</Description>
+				<GLAccount>74461003</GLAccount>
+				<TranType>2</TranType>
+			</Tran>
+		</Trans>
+
+
+
+
+
+
+
+
+
+		<DocID>12aa35555e504eaabf3ad7c1f567a0c3</DocID>
+		<DocDate>2024-04-07</DocDate>
+		<DocType>ΠΡ</DocType>
+		<DocNumber>1</DocNumber>
+		<IsReversal>0</IsReversal>
+		<DocAmount>6,41</DocAmount>
+		<DocCurrency>EUR</DocCurrency>
+		<CustomerID>123456</CustomerID>
+		<FullName>ΠΑΠΑΔΟΠΟΥΛΟΣ ΚΥΡΙΑΚΟΣ</FullName>
+		<TaxID>000077772</TaxID>
+		<CountryCode>GR</CountryCode>
+		<PostCode>73132</PostCode>
+		<CityName>ΧΑΝΙΑ</CityName>
+		<Address>ΕΛ. ΒΕΝΙΖΕΛΟΥ 00 73132 ΧΑΝΙΑ</Address>
+		<Email>a@abc.gr</Email>
+		<TranCount>2</TranCount>
+		<Trans>
+			<Tran>
+				<Amount>4,19</Amount>
+				<Currency>EUR</Currency>
+				<Description>ΠΡΟΜΗΘΕΙΑ POS SETTLEMENT</Description>
+				<GLAccount>74988200</GLAccount>
+				<TranType>2</TranType>
+			</Tran>
+			<Tran>
+				<Amount>2,22</Amount>
+				<Currency>EUR</Currency>
+				<Description>ΠΡΟΜΗΘΕΙΑ POS SETTLEMENT</Description>
+				<GLAccount>74988200</GLAccount>
+				<TranType>2</TranType>
+			</Tran>
+		</Trans>
+	</Doc>
+
+
+
+	<Doc>
+		<DocID>9d6098300fcc4949000fd7c1f567a0c3</DocID>
+		<DocDate>2024-05-9</DocDate>
+		<DocType>ΤΚ</DocType>
+		<DocNumber>3</DocNumber>
+		<IsReversal>0</IsReversal>
+		<DocAmount>0,58</DocAmount>
+		<DocCurrency>EUR</DocCurrency>
+		<CustomerID>778899</CustomerID>
+		<FullName>ΠΑΠΑΔΟΠΟΥΛΟΣ ΝΙΚΟΣ</FullName>
+		<TaxID>333000024</TaxID>
+		<CountryCode>GR</CountryCode>
+		<PostCode>73132</PostCode>
+		<CityName>ΧΑΝΙΑ</CityName>
+		<Address>ΕΛ. ΒΕΝΙΖΕΛΟΥ 01 73132 ΧΑΝΙΑ</Address>
+		<Email>b@abc.gr</Email>
+		<TranCount>1</TranCount>
+		<Trans>
+			<Tran>
+				<Amount>10,58</Amount>
+				<Currency>EUR</Currency>
+				<Description>ΤΟΚΟΣ ΔΑΝΕΙΟΥ</Description>
+				<GLAccount>70459811</GLAccount>
+				<TranType>1</TranType>
+			</Tran>
+		</Trans>
+	</Doc>
+
+
+
+	<Doc>
+		<DocID>df7c469de3d04d10bb8887c1f567a0c3</DocID>
+		<DocDate>2024-07-25</DocDate>
+		<DocType>ΑΠ</DocType>
+		<DocNumber>1</DocNumber>
+		<IsReversal>1</IsReversal>
+		<DocAmount>74,40</DocAmount>
+		<DocCurrency>EUR</DocCurrency>
+		<CustomerID>4444992</CustomerID>
+		<FullName>ΠΑΠΑΔΟΠΟΥΛΟΣ ΝΙΚΟΣ</FullName>
+		<TaxID>000000024</TaxID>
+		<CountryCode>GR</CountryCode>
+		<PostCode>73132</PostCode>
+		<CityName>ΧΑΝΙΑ</CityName>
+		<Address>ΕΛ. ΒΕΝΙΖΕΛΟΥ 285 73132 ΧΑΝΙΑ</Address>
+		<Email>b@abc.gr</Email>
+		<TranCount>1</TranCount>
+		<Trans>
+			<Tran>
+				<Amount>4,40</Amount>
+				<Currency>EUR</Currency>
+				<Description>ΑΚΥΡΩΣΗ ΠΡΟΜΗΘΕΙΑΣ ΤΡΑΠΕΖΙΚΗΣ ΕΡΓΑΣΙΑΣ</Description>
+				<GLAccount>74461003</GLAccount>
+				<TranType>2</TranType>
+			</Tran>
+		</Trans>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</Doc>
+</MyData>

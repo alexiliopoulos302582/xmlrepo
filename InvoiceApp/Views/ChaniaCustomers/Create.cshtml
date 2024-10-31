@@ -1,0 +1,63 @@
+﻿@model InvoiceApp.Models.ChaniaCustomer
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>ChaniaCustomer</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="ChaniaFullName" class="control-label"></label>
+                <input asp-for="ChaniaFullName" class="form-control" />
+                <span asp-validation-for="ChaniaFullName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ChaniaTaxID" class="control-label"></label>
+                <input asp-for="ChaniaTaxID" class="form-control" />
+                <span asp-validation-for="ChaniaTaxID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ChaniaCountryCode" class="control-label"></label>
+                <input asp-for="ChaniaCountryCode" class="form-control" />
+                <span asp-validation-for="ChaniaCountryCode" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ChaniaPostCode" class="control-label"></label>
+                <input asp-for="ChaniaPostCode" class="form-control" />
+                <span asp-validation-for="ChaniaPostCode" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ChaniaCityName" class="control-label"></label>
+                <input asp-for="ChaniaCityName" class="form-control" />
+                <span asp-validation-for="ChaniaCityName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ChaniaAddress" class="control-label"></label>
+                <input asp-for="ChaniaAddress" class="form-control" />
+                <span asp-validation-for="ChaniaAddress" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ChaniaEmail" class="control-label"></label>
+                <input asp-for="ChaniaEmail" class="form-control" />
+                <span asp-validation-for="ChaniaEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
